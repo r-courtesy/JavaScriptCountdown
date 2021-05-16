@@ -20,9 +20,9 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to right, #4851b5, #58c2e5);
+    /* background: linear-gradient(to right, #4851b5, #58c2e5);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 
 .countdown {
@@ -40,4 +40,11 @@ h2 {
 
 .waiting {
     height: 50vh;
+}
+
+@media screen and (max-width: 1010px) {
+
+    .waiting {
+        width: 100%;
+    }
 }
