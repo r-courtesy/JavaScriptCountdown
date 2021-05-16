@@ -44,6 +44,14 @@ h2 {
 
 @media screen and (max-width: 1010px) {
 
+    h2 {
+        text-align: center;
+    }
+
+    .coming-soon {
+        height: 100%;
+    }
+
     .waiting {
         width: 100%;
     }
